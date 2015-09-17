@@ -24,7 +24,7 @@
         - Must contain at least the following pure virtual function:
 
             ```c++
-            virtual bool contains(const Point p) const = 0;
+            virtual bool contains(const Point & p) const = 0;
             ```
 
     - `Rectangle` and `Ellipse`
