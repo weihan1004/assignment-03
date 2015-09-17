@@ -28,8 +28,8 @@
             ```
 
     - `Rectangle` and `Ellipse`
-        - Must inherit from `Shape`, and be a concrete class (i.e. not an
-          abstract class, i.e. it must override all `Shape`s pure virtual
+        - Must inherit from `Shape`, and be concrete classes (i.e. not abstract
+          classes, i.e. they must override all `Shape`s pure virtual
           functions).
 
     - `Square`
@@ -172,6 +172,14 @@
   the web interface instead of the desktop app or the terminal) see [GitHub
   Help / Manipulating Files / Creating new
   files](https://help.github.com/articles/creating-new-files/).
+
+- If you'd like more of a challenge, try implementing more complex shapes or
+  animations.  Be creative!
+
+- If you'd like to use a graphics library of some sort, perhaps
+  [SFML](http://www.sfml-dev.org) please do!  I wanted to use one rather than
+  simply printing to the terminal, but I couldn't justify making it a
+  requirement (and I also didn't have enough time to experiment).
 
 
 -------------------------------------------------------------------------------
